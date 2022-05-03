@@ -1,0 +1,29 @@
+<div id="form">
+    <div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Successfull!</strong> User has been Created.
+       
+          <span ><i class="fa fa-check"></i></span>
+       
+        </div>
+    <div class="login-box">
+      <h1 class="login-header"><i routerLink="/home" class="fa fa-arrow-left" ></i><i class="fa fa-user"></i> Create User</h1>
+     
+
+       
+<form [formGroup]="createUser" (ngSubmit)="userDetail()" >
+  
+    <div class="form-group">
+      
+      <input type="email" class="form-control" formControlName="fullName" placeholder="Enter Name">
+      <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+      <input type="email" class="form-control" formControlName="salary" placeholder="Enter Salary">
+    
+
+
+     <button [disabled]="createUser.invalid" type="submit" class="btn btn-primary">Create</button>
+   
+    </div>
+
+  </form>
+</div>
+</div>

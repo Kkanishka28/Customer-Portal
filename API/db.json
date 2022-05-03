@@ -1,0 +1,64 @@
+{
+  "Users": [
+    {
+      "fullName": "Virat Kaishya",
+      "email": "virat@portal.com",
+      "salary": "150000",
+      "id": 1
+    },
+    {
+      "fullName": "Shray Agarawal",
+      "email": "Shray@portal.",
+      "salary": "550000",
+      "id": 2
+    },
+    {
+      "fullName": "Redih Khanna",
+      "email": "rek@portal.com",
+      "salary": "430000",
+      "id": 3
+    },
+    {
+      "fullName": "Ayush Khan",
+      "email": "Ayush@portal.com",
+      "salary": "230000",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "fullName": "Agsthya Saini",
+      "email": "Agsthya12@portal.com",
+      "salary": "150000"
+    },
+    {
+      "id": 6,
+      "fullName": "Joe Are",
+      "email": "JoeAre@portal.com",
+      "salary": "150000"
+    },
+    {
+      "id": 7,
+      "fullName": "Kashik Sen",
+      "email": "Kashik@portal.com",
+      "salary": "150000"
+    },
+    {
+      "fullName": "Guaravi Sehjpal",
+      "email": "Guarav@portal.com",
+      "salary": "150000",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "fullName": "Ashi Kaushik",
+      "email": "Ashi@portal.com",
+      "salary": "150000"
+    },
+    {
+      "id": 10,
+      "fullName": "Sheron Sehjpal",
+      "email": "Sheron@portal.com",
+      "salary": "150000"
+    }
+  ]
+}

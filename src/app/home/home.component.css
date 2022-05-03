@@ -1,0 +1,21 @@
+.d-flex{
+    float: right;
+}
+.btn-outline-secondary
+{
+    margin-right: 25px;
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    width: 10rem;
+    
+   
+}
+.btn-outline-secondary:hover{
+    background-color:gray
+}
+.home-title{
+    text-align: center; 
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

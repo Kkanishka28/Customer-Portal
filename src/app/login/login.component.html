@@ -1,0 +1,22 @@
+<div id="form">
+    <div class="login-box">
+    <h1 class="login-header"><i routerLink="/home" class="fa fa-arrow-left" ></i><i class="fa fa-user"></i> Login</h1>
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <div class="form-group">
+      <input type="email" class="form-control" formControlName="email" placeholder="Enter email">
+     <span class="error" *ngIf = "email && email.invalid && email.touched">Please enter valid email</span>
+     <br>
+     <input type="password" class="form-control" formControlName="password" placeholder="Password">
+     <span class="error" *ngIf = "password && password.invalid && password.touched">Please check your password</span>
+     <br>
+     <span class="error" *ngIf = "password && password.invalid && password.touched">[Password must be within 6 to 12 characters]</span>
+<br>
+     <button (click)="btnClick()" [disabled] = "loginForm.invalid" type="button" class="btn btn-primary">Login</button>
+     <div id="formFooter">
+        <h6 style="padding-top: 10px;">Can't able to login <a href="#">Forgot Password?</a></h6>
+      </div>
+    </div>
+ 
+  </form>
+</div>
+</div>
